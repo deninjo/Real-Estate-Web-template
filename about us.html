@@ -5,140 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="nav.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Julius+Sans+One&family=Tangerine&display=swap"
+    <title>About Us</title>
+    <link rel="stylesheet" href="about us.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Julius+Sans+One&family=Tangerine&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Rowdies:wght@300&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Julius+Sans+One&family=Tangerine&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Niramit:wght@300&family=Vollkorn:wght@600&display=swap"
-        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Niramit:wght@300&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" target="_blank" class="active">Home</a> </li>
-                <li><a href="#two" target="_blank">Properties</a> </li>
-                <li><a href="about us.html" target="_blank">About us</a> </li>
-            </ul>
-        </nav>
-        <a href="#"><button class="btnLogin-popup">Sign in</button></a>
-    </header>
-    <div class="wrapper">
-        <span class="icon-close"><i class="bi bi-x-circle"></i></span>
-        <div class="login-form">
-            <h2>Sign in</h2>
-            <form action="">
-                <div class="input-box">
-                    <span class="icon"><i class="bi bi-envelope-at"></i></span>
-                    <input type="email" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><i class="bi bi-lock-fill"></i></span>
-                    <input type="password" required>
-                    <label for="password">Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label for=""><input type="checkbox">Remember me</label>
-                    <a href="#">Forgot Password</a>
-                </div>
-                <button type="submit" class="btn">Log in</button>
-                <div class="login-register">
-                    <p>Dont have an account? <a href="#" class="register-link">Register</a></p>
-                </div>
-
-            </form>
-        </div>
-
-        <div class="register-form">
-            <h2>Registration</h2>
-            <form action="">
-                <div class="input-box">
-                    <span class="icon"><i class="bi bi-person-fill"></i></i></span>
-                    <input type="text" required>
-                    <label for="username">Username</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><i class="bi bi-envelope-at"></i></span>
-                    <input type="email" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><i class="bi bi-lock-fill"></i></span>
-                    <input type="password" required>
-                    <label for="password">Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label for=""><input type="checkbox">I agree to the terms and conditions</label>
-
-                </div>
-                <button type="submit" class="btn">Register</button>
-                <div class="login-register">
-                    <p>Already have an account? <a href="#" class="login-link">login</a></p>
-                </div>
-
-            </form>
-        </div>
+    <div class="header">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank" class="nav">Home</a> </li>
+                    <li><a href="properties.html" target="_blank" class="nav">Properties</a> </li>
+                    <li><a href="about us.html" target="_blank" class="active">About us</a> </li>
+                </ul>
+            </nav>
+            <a href="#"><button>Sign in</button></a>
+            
+        </header>
     </div>
-    <script src="script.js"></script>
+    <div class="main" id="main">
 
-    <div class="footer">
-
-        <form action="">
+        <form action="https://formspree.io/f/myyanbqa" method="POST">
             <p class="hello">Say Hello <i class="bi bi-emoji-smile"></i></p><br>
             <input type="text" placeholder="Name" style="font-style:italic" name="name" class="form"><br>
-            <input type="text" placeholder="Emal" style="font-style:italic" name="Email" class="form"><br>
+            <input type="text" placeholder="Email" style="font-style:italic" name="Email" class="form"><br>
             <input type="text" placeholder="Subject" style="font-style:italic" name="Subject" class="form"><br>
-            <textarea rows="10" cols="50" placeholder="Message" style="font-style:italic" class="form"></textarea><br>
-            <br>
-            <br>
-            <input type="submit" value="Submit" class="bt">
+            <textarea rows="10" cols="50" placeholder="Message" style="font-style:italic" class="form" name="Message"></textarea><br>
+        <br>
+        <br>
+        <input type="submit" value="Submit" class="bt">
         </form>
         <div class="contact">
-            <p class="hello"> Contact info</p>
-            <br>
-            <ul class="list">
-                <li id="list"><i class="bi bi-geo-alt"></i> 35790 Lorem, ipsum dolor sit amet consectetur adipisicing.
-                </li>
-                <li id="list"><i class="bi bi-telephone-inbound"></i> +254-75845-2545</li>
-                <li id="list"><i class="bi bi-envelope-paper"></i><a href="mailto:contactme@gmail.com"
-                        id="list">contactme@gmail.com</a></li>
-                <li id="list"><i class="bi bi-globe-americas"></i><a href="#" id="list">www.oursites.com</a></li>
-                <br><br><br><br>
-                <br><br><br>
-                <p class="logos"><a href="https://www.facebook.com/" class="logos"><i class="bi bi-facebook"></i></a><a
-                        href="https://web.whatsapp.com/" class="logos"><i class="bi bi-whatsapp"></i></a><a
-                        href="http://www.instagram.com/" class="logos"><i class="bi bi-instagram"></i></a><a
-                        href="https://www.youtube.com/" class="logos"><i class="bi bi-youtube"></i></a></p>
-            </ul>
+        <p class="hello"> Contact info</p>
+        <br>
+        <ul class="list">
+            <li id="list"><i class="bi bi-geo-alt"></i>  35790 Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+            <li id="list"><i class="bi bi-telephone-inbound"></i>  +254-75845-2545</li>
+            <li id="list"><i class="bi bi-envelope-paper"></i><a href="mailto:contactme@gmail.com" id="list">contactme@gmail.com</a></li>
+            <li id="list"><i class="bi bi-globe-americas"></i><a href="#" id="list">www.oursites.com</a></li>
+            <br><br><br><br>
+            <br><br><br>
+            <p class="logos"><a href="https://www.facebook.com/" class="logos"><i class="bi bi-facebook"></i></a><a href="https://web.whatsapp.com/"  class="logos"><i class="bi bi-whatsapp"></i></a><a href="http://www.instagram.com/"  class="logos"><i class="bi bi-instagram"></i></a><a href="https://www.youtube.com/"  class="logos"><i class="bi bi-youtube"></i></a></p>
+         </ul>
         </div>
         <div class="about">
             <p class="hello">About</p>
             <br>
-            <P class="list" id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat quaerat
-                natus expedita explicabo debitis odio dolores eaque sequi molestias! Iure quod obcaecati labore
-                inventore magni accusamus vel fuga. Architecto voluptatibus quis cupiditate odio perferendis veritatis
-                adipisci est fugiat! Minus?</P>
+            <P class="list" id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat quaerat natus expedita explicabo debitis odio dolores eaque sequi molestias! Iure quod obcaecati labore inventore magni accusamus vel fuga. Architecto voluptatibus quis cupiditate odio perferendis veritatis adipisci est fugiat! Minus?</P>
             <br>
-            <p class="list" id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente neque quis
-                quia et omnis debitis, vel perspiciatis, deserunt, unde ex consequatur praesentium minus corporis a
-                quasi est animi sed nobis optio assumenda earum perferendis officiis numquam similique!</p>
+            <p class="list" id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente neque quis quia et omnis debitis, vel perspiciatis, deserunt, unde ex consequatur praesentium minus corporis a quasi est animi sed nobis optio assumenda earum perferendis officiis numquam similique!</p>
         </div>
 
     </div>

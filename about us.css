@@ -13,7 +13,7 @@
     background-position: center;
     
 }
-.footer{
+.main{
     min-height: 100vh;
     background-color: blanchedalmond;
     padding-bottom: 50px;
@@ -24,7 +24,7 @@ a,
 button {
     font-family: Alegreya SC;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     
 
 }
@@ -34,6 +34,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px;
+    
     
 }
 ul {
@@ -75,7 +76,7 @@ button:hover {
     background-color: rgb(6, 137, 173, 0.9);
 }
 .hello{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -83,21 +84,23 @@ button:hover {
 form{
     position: relative;
     display: block;
-    /*background: #0088a9;*/
+   /* background: #0088a9;*/
     width: 36%;
-    margin-left: 95px;
-    top: 50px;
+    margin-left: 76px;
+    top: 40px;
     
 }
 .form{
-    padding: 15px 10px;
-    width: 630px;
+    padding: 12px 8px;
+    width:75%;
+    margin: 1.6px auto;
+    display: flex;
     
 }
 input,
 .form{
     
-    margin: 10px;
+    margin: 16px;
 
 }
 .bt{
@@ -141,13 +144,13 @@ input,
 .logos{
     text-decoration: none;
     letter-spacing: 20px;
-    font-size: 30px;
+    font-size: 24px;
     left: 50px;
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
   }
 #about{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Niramit', sans-serif;
 }
